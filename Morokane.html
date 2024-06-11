@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MORAKANE LEHONYE FOUNDATION</title>
+    <style>
+      body {
+        background-color: antiquewhite;
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+        margin: 0;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+
+      button {
+        cursor: pointer;
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: #885df1;
+        border: 1px solid #f2f2f2;
+        color: #f2f2f2;
+        font-size: 17px;
+        line-height: 22px;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: all 200ms ease;
+      }
+
+      section {
+        margin: 100px 0;
+      }
+      h1,
+      h2 {
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0;
+      }
+      h1 {
+        color: #272044;
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        color: #885df1;
+        padding: 0 0 24px;
+      }
+      .paragraph-group p {
+        margin-bottom: 20px;
+        color: #333;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        text-size-adjust: 12px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+      .mySlides {
+        display: none;
+      }
+      img {
+        border-radius: 12px;
+        vertical-align: center;
+        height: min-content;
+      }
+
+      /* Slideshow container */
+      .slideshow-container {
+        border-radius: 25px;
+        max-width: 600px;
+        position: relative;
+        margin: auto;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+      .active,
+      .dot:hover {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 0.4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 200px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px;
+        }
+      }
+
+      footer {
+        background-color: #333;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 6px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About us</a>
+      <a href="#donation">Make A Donation</a>
+    </div>
+    <section>
+      <h1>MORAKANE LEHONYE FOUNDATION</h1>
+      <h2>Giving Hope, Creating Change!</h2>
+      <br />
+      <div class="paragraph-group">
+        <p>
+          <strong
+            >"Serving to demonstrate God's love for abandoned children, abused
+            women and children by providing a loving and safe home enviroment
+            through committed and dedicated volunteers to find hope in their
+            lives."</strong
+          >
+        </p>
+      </div>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 7</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/785/original/IMG-20240516-WA0012.jpg?1715979178"
+            width="600"
+            height="200"
+          />
+          <div class="text">Digital Learning</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 7</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/786/original/IMG-20240516-WA0008.jpg?1715979240"
+            width="600"
+            height="200"
+          />
+          <div class="text">Digital Learning</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 7</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/788/original/IMG-20240515-WA0007.jpg?1715979331"
+            width="600"
+            height="200"
+          />
+          <div class="text">Digital Learning</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 7</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/789/original/IMG-20240515-WA0004.jpg?1715979389"
+            width="600"
+            height="200"
+          />
+          <div class="text">Digital Learning</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 7</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/790/original/IMG-20240515-WA0008.jpg?1715979436"
+            width="600"
+            height="200"
+          />
+          <div class="text">Youth Empowerment Program</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 7</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/791/original/IMG-20240515-WA0011.jpg?1715979583"
+            width="600"
+            height="200"
+          />
+          <div class="text">Youth Empowerment Program</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 7</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/792/original/IMG-20240515-WA0010.jpg?1715979616"
+            width="600"
+            height="200"
+          />
+          <div class="text">Youth Empowerment Program</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+
+      <div></div>
+    </section>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+    <footer>
+      <p>© 2024 Morakane Lehonye Foundation. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
